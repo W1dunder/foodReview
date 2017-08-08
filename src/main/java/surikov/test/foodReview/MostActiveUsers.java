@@ -27,7 +27,6 @@ public class MostActiveUsers {
 		
 		Map<String, Integer> profiles = new HashMap<>();		
 		
-		
 		try (BufferedReader reader = new BufferedReader(new FileReader(fileName))) {
 			
 			reader.readLine();
